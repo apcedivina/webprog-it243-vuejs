@@ -3,20 +3,27 @@
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css?version=0.2">">
+  <link rel="stylesheet" href="css/flexbox-grid.css">  
 
 </head>
 <body>
 
-<h1>Vue Example</h1>
-<h1>Personal Profile Web page </h1>
-<p>
-About Me<br>
-Graduate of Upper Bicutan National High School With Honors<br>
-BSIT<br>
-Programming, Gaming, HTML<br>
-Online gaming, listening to music, sleeping<br>
-To become a successful IT professional in the future<br>
-</p>
+<div class="container">    
+        <header> <h1>Personal Profile Web page </h1>  </header>    
+        <main>    
+          <section class="main-content">    
+            <div>1 About Me</div>    
+            <div>2 Graduate of UBNHS with Honors</div>    
+            <div>3 BSIT </div>      
+            <div>4 Gaming, HTML</div>    
+            <div>5 Online gaming, listening to music, sleeping</div>    
+            <div>6 To become a successful IT professional in the future</div>        
+          </section>    
+          <aside class="sidebar">    
+            </aside>    
+        </main>    
+        <footer> Asia Pacific College   </footer>    
+</div>    
 
 <p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
 
