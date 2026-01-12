@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      message: 'aray mo pakak'
+      message: 'aray mo pakakkkk'
     };
   }
 };
