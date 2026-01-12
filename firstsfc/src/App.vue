@@ -1,7 +1,15 @@
-App.vue
- 
 <template>
-  <h1>yowww instant</h1>
+  <h1>{{ message }}</h1>
 </template>
- 
-<script></script>
+
+<script>
+export default {
+  data() {
+    return {
+      message: 'aray mo pakak'
+    };
+  }
+};
+</script>
+
+<style></style>
