@@ -1,7 +1,6 @@
 profile.vue
 
-<!DOCTYPE html>
-<html>
+<template>
 <head>
 <title>Page Title</title>
 </head>
@@ -23,4 +22,6 @@ Picture Gallery<br>
  
   
 </body>
-</html>
+</template>
+<style></style>
+<script></script> 
