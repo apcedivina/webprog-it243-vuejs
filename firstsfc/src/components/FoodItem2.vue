@@ -1,7 +1,7 @@
 FoodItem.vue
  
 <template>
-  <div class="apple">
+  <div class="tangerine">
     <h2>{{ name }}</h2>
     <p>{{ message }}</p>
   </div>
@@ -11,8 +11,8 @@ FoodItem.vue
 export default {
   data() {
     return {
-      name: 'Apples',
-      message: 'I like apples'
+      name: 'Tangerine',
+      message: 'I like tangerines'
     }
   }
 };
@@ -21,11 +21,11 @@ export default {
 <style></style>
 
 <style>
-  .apple {
+  .tangerine {
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: red;
+    background-color: orange;
   }
 </style> 
