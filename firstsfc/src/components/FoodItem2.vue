@@ -21,7 +21,7 @@ export default {
 <style></style>
 
 <style>
-  .tangerine {
+  .durian {
     border: dashed black 1px;
     display: inline-block;
     margin: 10px;
