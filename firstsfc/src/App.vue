@@ -2,7 +2,7 @@
   <h1>Food</h1>
   <food-item/>
   <food-item2/>
-  <profile2/>
+  <profile/>
 </template>
  
 <script></script>
