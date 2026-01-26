@@ -4,6 +4,7 @@ import FoodItem from './components/FoodItem.vue'
 import Country from './components/Country.vue'
 import CommentForm from './components/CommentForm.vue'
 import Comment from './components/Comment.vue'
+import profile from './components/profile.vue'
 
 const app = createApp(App)
 app.component('food-item', FoodItem)

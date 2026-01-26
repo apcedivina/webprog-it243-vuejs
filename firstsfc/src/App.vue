@@ -4,6 +4,7 @@
   <food-item/>
   <comment-form/>
   <comment/>
+  <profile/>
    
 
 </template>
